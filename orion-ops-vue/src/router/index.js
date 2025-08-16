@@ -484,6 +484,15 @@ const routes = [
         component: () => import('../views/system/SystemSetting')
       },
       {
+        path: '/system/server',
+        name: 'systemServer',
+        meta: {
+          requireAuth: true,
+          title: '服务监控'
+        },
+        component: () => import('../views/system/server/index')
+      },
+      {
         path: '/scheduler/list',
         name: 'schedulerList',
         meta: {

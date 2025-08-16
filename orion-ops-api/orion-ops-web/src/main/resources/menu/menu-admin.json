@@ -181,6 +181,10 @@
       {
         "name": "系统设置",
         "path": "/system/setting"
+      },
+      {
+        "name": "服务监控",
+        "path": "/system/server"
       }
     ]
   }

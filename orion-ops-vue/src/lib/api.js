@@ -68,6 +68,10 @@ const $api = {
     return $http.$post('/auth/login', param, { auth: false })
   },
 
+  server: () => {
+    return $http.$get('/monitor/server', null, { auth: false })
+  },
+
   /**
    * 登出
    */
