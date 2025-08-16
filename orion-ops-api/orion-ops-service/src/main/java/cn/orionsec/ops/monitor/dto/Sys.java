@@ -1,4 +1,4 @@
-package cn.orionsec.ops.service.server;
+package cn.orionsec.ops.monitor.dto;
 
 /**
  * 系统相关信息

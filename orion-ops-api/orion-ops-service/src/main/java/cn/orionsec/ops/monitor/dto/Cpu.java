@@ -1,4 +1,6 @@
-package cn.orionsec.ops.service.server;
+package cn.orionsec.ops.monitor.dto;
+
+import cn.orionsec.ops.monitor.utils.Arith;
 
 /**
  * CPU相关信息

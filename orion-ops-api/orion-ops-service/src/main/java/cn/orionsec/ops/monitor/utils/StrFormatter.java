@@ -1,6 +1,4 @@
-package cn.orionsec.ops.text;
-
-import cn.orionsec.ops.utils.StringUtils;
+package cn.orionsec.ops.monitor.utils;
 
 /**
  * 字符串格式化

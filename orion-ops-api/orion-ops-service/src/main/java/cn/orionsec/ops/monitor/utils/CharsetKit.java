@@ -1,6 +1,4 @@
-package cn.orionsec.ops.text;
-
-import cn.orionsec.ops.utils.StringUtils;
+package cn.orionsec.ops.monitor.utils;
 
 import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;

@@ -1,4 +1,4 @@
-package cn.orionsec.ops.utils;
+package cn.orionsec.ops.monitor.utils;
 
 import org.apache.commons.lang3.time.DateFormatUtils;
 
@@ -128,13 +128,13 @@ public class DateUtils extends org.apache.commons.lang3.time.DateUtils {
      * @param startTime 开始时间
      * @return 时间差（天/小时/分钟）
      */
-    public static String timeDistance(Date endDate, Date startTime) {
+    public static String timeDistance(Date endTime, Date startTime) {
         long nd = 1000 * 24 * 60 * 60;
         long nh = 1000 * 60 * 60;
         long nm = 1000 * 60;
         // long ns = 1000;
         // 获得两个时间的毫秒时间差异
-        long diff = endDate.getTime() - startTime.getTime();
+        long diff = endTime.getTime() - startTime.getTime();
         // 计算差多少天
         long day = diff / nd;
         // 计算差多少小时
